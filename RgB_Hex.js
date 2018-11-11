@@ -1,7 +1,7 @@
 window.onload = function(){
    alert("Hey there! Welcome to Rob's Color picker. \n\n Change the color by moving the bar, entering a value from 0 to 255 in the input boxes, click the \'random\' button for random colors, or by inserting the hex value, in the input") ;
 }
-//control sliders//
+//control sliders// I grabbed the functions first!
 function moveSliders(a,b,c){
     document.getElementById("r").value = a;
     document.getElementById("g").value = b;
